@@ -1,0 +1,5 @@
+{
+  "extends": "@foo/tsconfig/ui.json",
+  "include": ["."],
+  "exclude": ["node_modules"]
+}

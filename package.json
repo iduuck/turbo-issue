@@ -1,0 +1,14 @@
+{
+  "name": "foo-root",
+  "license": "MIT",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "clean": "turbo run clean && rm -rf node_modules/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "2.7.1",
+    "turbo": "1.5.1"
+  }
+}

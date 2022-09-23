@@ -1,0 +1,17 @@
+{
+  "name": "example-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf node_modules/",
+    "dev": "foo serve"
+  },
+  "dependencies": {
+    "@foo/cli": "workspace:*"
+  },
+  "devDependencies": {
+    "@foo/eslint-config": "workspace:*",
+    "@types/node": "^18.7.17",
+    "eslint": "8.23.1"
+  }
+}
